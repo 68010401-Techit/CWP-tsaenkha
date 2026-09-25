@@ -1,5 +1,5 @@
 import sys
-if len(sys.argv) > 1:
+if len(sys.argv) == 2:
     result = sys.argv[1]
     print(result.upper())
 else:
